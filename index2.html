@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joe Dirt Co. | Black Dirt Delivery in Naperville</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1611689874371-32294cde1d01') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 48px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    h2.section-title {
+      font-size: 32px;
+      color: #343a40;
+      margin-bottom: 20px;
+    }
+    .pricing-grid, .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .contact-form button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #218838;
+    }
+    footer {
+      background: #343a40;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: white;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Joe Dirt Co.</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#features">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Premium Black Dirt Delivered Fast & Easy</h2>
+  </div>
+
+  <div class="container">
+    <section id="services">
+      <h2 class="section-title">Our Services</h2>
+      <div class="features-grid">
+        <div class="card">
+          <h3>Topsoil Delivery</h3>
+          <p>We deliver high-quality raw black dirt directly to your location for landscaping, gardening, or construction needs.</p>
+        </div>
+        <div class="card">
+          <h3>Contractor Partnerships</h3>
+          <p>We work with local landscapers, builders, and contractors for bulk rates and consistent supply.</p>
+        </div>
+        <div class="card">
+          <h3>Flexible Scheduling</h3>
+          <p>Same-day or next-day delivery available to Naperville and nearby cities.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2 class="section-title">Pricing</h2>
+      <div class="pricing-grid">
+        <div class="card">
+          <h3>1 Load (10–15 yards)</h3>
+          <p>$500 – $700</p>
+        </div>
+        <div class="card">
+          <h3>Delivery Fee</h3>
+          <p>$50 – $150 depending on location</p>
+        </div>
+        <div class="card">
+          <h3>Bulk Discounts</h3>
+          <p>Get lower rates on 5+ truckloads. Great for large jobs and frequent customers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <h2 class="section-title">Why Choose Joe Dirt Co?</h2>
+      <ul>
+        <li>✔ Fast, Reliable Service</li>
+        <li>✔ Competitive Pricing</li>
+        <li>✔ Screened and Unscreened Options</li>
+        <li>✔ Locally Owned and Operated</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Get a Free Quote</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Your Phone Number" required>
+        <textarea rows="5" placeholder="Tell us how many truckloads you need, your address, and any other details." required></textarea>
+        <button type="submit">Request Quote</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Joe Dirt Co. | All rights reserved</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
